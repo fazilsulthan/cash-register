@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60vh;
+  margin: 3rem;
+  padding: 1rem;
+  background-color: pink;
+  align-items: center;
+}
+#bill-amount,
+#cash-given {
+  border-radius: 0.3rem;
+  border-color: pink;
+  padding: 0.3rem 1rem;
+}
+#check-button {
+  width: 30%;
+  padding: 0.3rem 1rem;
+  background-color: white;
+  margin: 1rem;
+  color: black;
+  border-radius: 0.3rem;
+  border-color: pink;
+}
+#bill-amount {
+  width: 50%;
+}
+#cash-given {
+  width: 50%;
+}
+.change-table {
+  margin: 1rem;
+  border: 1px solid black;
+}
+td,
+th {
+  border: 1px solid;
+  padding: 0.5rem;
+}
